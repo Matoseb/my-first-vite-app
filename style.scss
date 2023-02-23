@@ -1,0 +1,12 @@
+$color-light: #fff;
+$dark: var(--color-black);
+
+:root {
+  --color-black: black;
+}
+
+html, body {
+  background: $dark;
+  color: $color-light;
+}
+
