@@ -1,23 +1,11 @@
-import 'normalize.css'
-import 'p5'
-import Ball from './Ball.js'
-
-let ballInstances = []
+import 'p5';
+// a p5 global mode sketch with a circle that moves around the screen
 
 window.setup = () => {
-
-  createCanvas(windowWidth, windowHeight)
-
-  ballInstances.push(new Ball({
-    color: 'yellow'
-  }))
-  ballInstances.push(new Ball({ x: 100, y: 250, diameter: 30, color: 'yellow' }))
+  createCanvas(400, 400);
 }
 
 window.draw = () => {
-  background('red')
-
-  ballInstances.forEach((b, i) => {
-    b.update()
-  })
+  background(220);
+  circle(mouseX, mouseY, 50);
 }

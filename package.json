@@ -15,6 +15,7 @@
   "dependencies": {
     "normalize.css": "^8.0.1",
     "p5": "^1.6.0",
-    "three": "^0.150.0"
+    "three": "^0.150.0",
+    "vite-plugin-mkcert": "^1.13.2"
   }
 }

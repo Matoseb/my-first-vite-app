@@ -1,5 +1,6 @@
 $color-light: #fff;
 $dark: var(--color-black);
+$color-main: red;
 
 :root {
   --color-black: black;
@@ -10,3 +11,11 @@ html, body {
   color: $color-light;
 }
 
+
+.my-elem-class {
+  width: 100px;
+  height: 100px;
+  background: $color-main;
+
+  transform: translate(var(--x), var(--y)) rotate(var(--angle))
+}
